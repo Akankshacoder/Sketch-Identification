@@ -1,0 +1,39 @@
+h1{
+    background-color: lightcyan;
+    margin: 0;
+    padding: 10px;
+}
+#Show{
+    float: right;
+}
+body{
+    background: url("bg.jpg"); 
+    opacity: 100%
+}
+.modal-dialog{
+    width:65%;
+}
+#Obj,#Con {
+    background-color: lightcyan;
+    width:fit-content;
+    padding: 10px;
+    border-radius: 25px;
+}
+canvas{
+    margin-top: 100px;
+    border-radius: 50px;
+    animation-name: doodle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes doodle{
+    from{
+        box-shadow: 5px 10px 50px lavenderblush
+        
+    }
+    to{
+        box-shadow: 5px 10px 50px rgb(82, 86, 198)
+    }
+
+    
+}
